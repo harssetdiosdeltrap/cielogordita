@@ -6,28 +6,29 @@
   <title>Mensaje de Amor</title>
   <style>
     body {
-      background-color: #f2e2d2; /* Color pastel de fondo */
+      background-color: #f6e6d7; /* Beige pastel claro */
       font-family: 'Arial', sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
       margin: 0;
+      color: #333;
     }
     .message-container {
       text-align: center;
       background-color: #fff;
-      padding: 50px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      width: 80%;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 90%;
       max-width: 600px;
     }
     h1 {
       font-size: 2.5em;
       color: #e74c3c; /* Rojo fuerte */
       margin-bottom: 20px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     }
     p {
       font-size: 1.2em;
@@ -37,6 +38,19 @@
     .heart {
       color: #e74c3c; /* Rojo fuerte para el corazón */
       font-size: 1.5em;
+    }
+
+    /* Media Query para dispositivos móviles */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+      p {
+        font-size: 1em;
+      }
+      .message-container {
+        padding: 20px;
+      }
     }
   </style>
 </head>
